@@ -1,0 +1,190 @@
+/* Task 1 */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: #FBFBFB;
+}
+body,
+button,
+input {
+    font-family: Poppins;
+}
+
+
+/* Flex Box classes  */
+.flex{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center !important;
+}
+.align-items-center{
+    align-items: center !important;
+}
+.justify-content-end{
+    justify-content: end !important;
+}
+.justify-content-start{
+    justify-content: start !important;
+}
+.direction-y{
+    flex-direction: column !important;
+}
+.flex-wrap{
+    flex-wrap: wrap !important;
+}
+
+/* shadow  */
+.shadow{
+ box-shadow: 0px 0px 12px -1px rgba(3,17,105,0.5);
+-webkit-box-shadow: 0px 0px 12px -1px rgba(3,17,105,0.5);
+-moz-box-shadow: 0px 0px 12px -1px rgba(3,17,105,0.5);
+}
+/* Section area  */
+.section{
+    width: 78%;
+    margin: auto;
+}
+
+/* Shapes  */
+
+.right-arrow{
+    height: 80px;
+    width: 95px;
+    background-color: #051e75;
+    clip-path: polygon(0px 0px, 30% 35%, 0px 56px, 100px 56px, 100px 0px);
+    
+}
+.left-arrow{
+    height: 80px;
+    width: 95px;
+    background-color: #051e75;
+    clip-path: polygon(100% 0, 70% 35%, 100% 56px, 0px 56px, 0px 0px);
+    
+} 
+
+
+/* Company Information */
+
+.company-name{
+    margin-top: 25px;
+    background-color: #020d37;
+    color: white;
+    padding: 10px 20px;
+    word-spacing: 7px;
+    border-radius: 3px;
+    font-weight: 500 !important;
+}
+
+.company-description{
+    margin-top: 20px;
+    text-align: center;
+    width: 75%;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: solid 4px #051e75;
+    padding-bottom: 30px;
+}
+
+/* Meet our team title  */
+
+.title{
+    text-align: center; 
+    margin: 30px 0px;
+}
+
+.text-box{
+    margin: 10px 0px;
+    background-color: #051e75;
+    padding: 8px 12px;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.profile-section{
+ margin: 60px 0px;
+ gap: 80px;
+}
+
+
+.profile{
+    width: 220px;
+}
+.img-box{
+    text-align: center;
+}
+.img-box>img{
+    height: 140px;
+    width: 140px;
+    
+    clip-path: circle(70px at 50% 50%);
+    
+}
+
+.details{
+    margin-top: 10px;
+}
+.emp-name{
+    font-size: 16px !important;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.emp-profession{
+    font-size: 15px;
+    font-weight: 500;
+    color: #df139b;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.text-box{
+    margin: 10px 0px;
+    background-color: #051e75;
+    padding: 8px 12px;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.overlap1{
+    position: absolute;
+    z-index: 1;
+    
+}
+.overlap2{
+    position: relative;
+    z-index: 2;
+    top: 4;
+    
+}
+.overlap3{
+    position: absolute;
+    z-index: 3;
+    right: 0;
+}
+.overlap4{
+    position: relative;
+    z-index: 4;
+    
+}
+
+/* ========================================ResponsiveNess ============================== */
+
